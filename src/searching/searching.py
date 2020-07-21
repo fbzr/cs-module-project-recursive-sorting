@@ -14,8 +14,6 @@ def binary_search(arr, target, start, end):
                 return binary_search(arr, target, start, middle-1)
             else:
                 return binary_search(arr, target, middle+1, end)    
-        
-        return -1 
 
 
 # STRETCH: implement an order-agnostic binary search
